@@ -5,7 +5,9 @@ package Aro;
  * @author a21raulms
  */
 public class Aro {
-    public static final double MINIMO = 0.0;
+
+    public static final double LIMITERADIO = 0.0;
+    public static final double MINIMO = LIMITERADIO;
 
     private int coordenadaX;
     private int coordenadaY;
