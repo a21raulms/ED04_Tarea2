@@ -121,14 +121,14 @@ public class AroTest {
     }
 
     /**
-     * Test of obterArea method, of class Aro.
+     * Test of Superficie method, of class Aro.
      */
     @Test
-    public void testObterArea() {
-        System.out.println("obterArea");
+    public void testSuperficie() {
+        System.out.println("Superficie");
         Aro instance = new Aro(0,0,0.1);
         double expResult = 0.0314159;
-        double result = instance.obterArea();
+        double result = instance.Superficie();
         assertEquals(expResult, result,1e-6);
     }
 

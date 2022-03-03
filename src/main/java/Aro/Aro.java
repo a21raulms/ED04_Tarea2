@@ -53,7 +53,7 @@ public class Aro {
         return Math.PI * obterDiametro();
     }
 
-    public double obterArea() {
+    public double Superficie() {
         return Math.PI * radio * radio;
     }
 
