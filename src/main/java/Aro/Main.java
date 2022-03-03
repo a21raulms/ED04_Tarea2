@@ -7,6 +7,11 @@ import java.text.DecimalFormat;
  * @author a21raulms
  */
 public class Main {
+
+    /**
+     * Metodo main
+     * @param args
+     */
     public static void main(String[] args) {
         Aro Aro = new Aro(37,43,2.5);
         String saida =
