@@ -1,4 +1,4 @@
-package Aro;
+package org.aro;
 
 import java.text.DecimalFormat;
 
@@ -18,15 +18,10 @@ public class Main {
                 "A coordenada X é "+Aro.getCoordenadaX()+
                 "\nA coordenada Y é "+Aro.getCoordenadaY()+
                 "\nO radio é "+Aro.getRadio();
-        Aro.setCoordenadaX(35);
-        Aro.setCoordenadaY(20);
-        Aro.setRadio(4.2);
         DecimalFormat dousDixitos = new DecimalFormat("0.00");
         saida+="\nO diámetro é "+dousDixitos.format(Aro.obterDiametro());
         saida+="\nA circunferencia é "+dousDixitos.format(Aro.obterCircunferencia());
-        saida+="\nA área é "+dousDixitos.format(Aro.Superficie());
-        System.out.println(saida);
-        
+        saida+="\nA área é "+dousDixitos.format(Aro.superficie());
         System.out.println(saida);
         System.exit(0);
     }

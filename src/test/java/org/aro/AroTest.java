@@ -2,12 +2,9 @@
  * Probas para a clase Aro
  * @author a21raulms
  */
-package Aro;
+package org.aro;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.BeforeAll;
+/**import org.aro.Aro;*/
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -54,14 +51,14 @@ public class AroTest {
     }
 
     /**
-     * Test of Superficie method, of class Aro.
+     * Test of superficie method, of class Aro.
      */
     @Test
     public void testSuperficie() {
         System.out.println("Superficie");
         Aro instance = new Aro(0,0,0.1);
         double expResult = 0.0314159;
-        double result = instance.Superficie();
+        double result = instance.superficie();
         assertEquals(expResult, result,1e-6);
     }
 

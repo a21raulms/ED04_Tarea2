@@ -1,4 +1,4 @@
-package Aro;
+package org.aro;
 
 /**
  * Probas de refactorización en NetBeans coa clase Aro
@@ -35,7 +35,7 @@ public class Aro {
     public Aro(int valorX, int valorY, double valorRadio) {
         coordenadaX = valorX;
         coordenadaY = valorY;
-        setRadio(valorRadio);
+        radio = valorRadio;
     }
 
     /**
@@ -55,10 +55,10 @@ public class Aro {
     }
 
     /**
-     * Metodo Superficie
+     * Metodo superficie
      * @return
      */
-    public double Superficie() {
+    public double superficie() {
         return Math.PI * getRadio() * getRadio();
     }
 
