@@ -62,6 +62,10 @@ public class Aro {
         return Math.PI * getRadio() * getRadio();
     }
 
+    /**
+     *
+     * @return Indica las coordenadas del centro y el valor del radio
+     */
     @Override
     public String toString() {
         return "Centro = [" + getCoordenadaX() + "," + getCoordenadaY() + "]; Radio = " + getRadio();
