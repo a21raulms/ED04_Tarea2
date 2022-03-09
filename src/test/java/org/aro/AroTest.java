@@ -1,6 +1,6 @@
 /**
  * Probas para a clase Aro
- * @author a21raulms
+ * @author Raúl Martínez Santiago
  */
 package org.aro;
 
@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author a21raulms
+ * @author Raúl Martínez Santiago
  */
 public class AroTest {
     

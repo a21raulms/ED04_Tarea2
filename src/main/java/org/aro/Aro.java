@@ -2,7 +2,7 @@ package org.aro;
 
 /**
  * Probas de refactorización en NetBeans coa clase Aro
- * @author a21raulms
+ * @author Raúl Martínez Santiago
  */
 public class Aro {
 
@@ -27,10 +27,10 @@ public class Aro {
     }
 
     /**
-     * Metodo Aro
-     * @param valorX
-     * @param valorY
-     * @param valorRadio
+     * Constructor de la clase Aro que asigna los valores de x,y y el radio
+     * @param valorX valor de la coordenada X
+     * @param valorY valor de la coordenada Y
+     * @param valorRadio valor del radio
      */
     public Aro(int valorX, int valorY, double valorRadio) {
         coordenadaX = valorX;
@@ -39,24 +39,24 @@ public class Aro {
     }
 
     /**
-     * Metodo obterDiametro
-     * @return
+     * Obtiene el valor del diámetro
+     * @return diámetro del aro
      */
     public double obterDiametro() {
         return getRadio() * 2;
     }
 
     /**
-     * Metodo obterCircunferencia
-     * @return
+     * Obtiene el perímetro del aro
+     * @return perímetro del aro
      */
     public double obterCircunferencia() {
         return Math.PI * obterDiametro();
     }
 
     /**
-     * Metodo superficie
-     * @return
+     * Obtine la superficie del aro
+     * @return superficie del aro
      */
     public double superficie() {
         return Math.PI * getRadio() * getRadio();
@@ -68,9 +68,9 @@ public class Aro {
     }
 
     /**
-     * Metodo trasladarCentro
-     * @param trasladarX
-     * @param trasladarY
+     * Traslada el centro del aro
+     * @param trasladarX cantidad que se traslada la coordenada X
+     * @param trasladarY cantidad que se traslada la coordenada Y
      */
     public void trasladarCentro(int trasladarX, int trasladarY){
         setCoordenadaX(getCoordenadaX() + trasladarX);

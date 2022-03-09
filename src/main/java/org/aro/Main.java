@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 /**
  * Pruebas de refactorización en NetBeans con la clase Aro
- * @author a21raulms
+ * @author Raúl Martínez Santiago
  */
 public class Main {
 
