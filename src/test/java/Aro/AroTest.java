@@ -20,12 +20,82 @@ public class AroTest {
     public AroTest() {
     }
     
+    /**
+     * Test of setCoordenadaX method, of class Aro.
+     */
+    @Test
+    public void testEstablecerX() {
+        System.out.println("establecerX");
+        int valorX = 0;
+        Aro instance = new Aro();
+        instance.setCoordenadaX(valorX);
+    }
 
+    /**
+     * Test of getCoordenadaX method, of class Aro.
+     */
+    @Test
+    public void testObterX() {
+        System.out.println("obterX");
+        Aro instance = new Aro(0,0,0.1);
+        int expResult = 0;
+        int result = instance.getCoordenadaX();
+        assertEquals(expResult, result);
+    }
 
+    /**
+     * Test of setCoordenadaY method, of class Aro.
+     */
+    @Test
+    public void testEstablecerY() {
+        System.out.println("establecerY");
+        int valorY = 0;
+        Aro instance = new Aro();
+        instance.setCoordenadaY(valorY);
+    }
 
+    /**
+     * Test of getCoordenadaY method, of class Aro.
+     */
+    @Test
+    public void testObterY() {
+        System.out.println("obterY");
+        Aro instance = new Aro(0,0,0.1);
+        int expResult = 0;
+        int result = instance.getCoordenadaY();
+        assertEquals(expResult, result);
+    }
 
+    /**
+     * Test of setRadio method, of class Aro.
+     */
+    @Test
+    public void testEstablecerRadio() {
+        System.out.println("establecerRadio");
+        Aro instance = new Aro();
+        instance.setRadio(0.0);
+        instance.setRadio(0.1);
+        instance.setRadio(-0.1);
+    }
 
+    /**
+     * Test of getRadio method, of class Aro.
+     */
+    @Test
+    public void testObterRadio() {
+        System.out.println("obterRadio");
+        Aro instance = new Aro(0,0,0.1);
+        double result = instance.getRadio();
+        assertEquals(0.1, result,0);
 
+        instance.setRadio(0.1);
+        result= instance.getRadio();
+        assertEquals(0.1, result,0);
+
+        instance.setRadio(-0.1);
+        result= instance.getRadio();
+        assertEquals(0.0, result,0);
+    }
 
     /**
      * Test of obterDiametro method, of class Aro.
